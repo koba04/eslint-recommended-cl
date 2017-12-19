@@ -36,4 +36,9 @@ describe('execute', () => {
       -1
     );
   });
+  it('should be able to specify the format option', () => {
+    const result = JSON.parse(execute([path.resolve(__dirname, 'fixtures', 'error.js')], {format: 'json'}));
+    assert(Array.isArray(result));
+    assert(typeof result[0].filePath === 'string');
+  });
 });

@@ -38,3 +38,11 @@ This options is to disable specific rules you'd like to ignore errors.
 ```
 npx eslint-recommended-cli --disable no-debugger --disable no-empty src/*.js
 ```
+
+### `format`
+
+This options is equivalent of ESLint's format option.
+
+```
+npx eslint-recommended-cli --format json src/*.js
+```
