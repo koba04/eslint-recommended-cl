@@ -1,0 +1,29 @@
+{
+  "name": "eslint-recommended-cli",
+  "version": "0.1.0",
+  "description": "A zero configration cli for ESLint recommended",
+  "bin": "lib/cli.js",
+  "scripts": {
+    "lint": "eslint lib/*.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "eslint",
+    "cli"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "koba04",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^8.0.3",
+    "commander": "^2.12.2",
+    "eslint": "^4.13.1",
+    "eslint-plugin-react": "^7.5.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
