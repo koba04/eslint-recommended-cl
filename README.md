@@ -1,8 +1,7 @@
 # ESLint Recommended Cli
 
 [![CircleCI](https://circleci.com/gh/koba04/eslint-recommended-cl.svg?style=svg)](https://circleci.com/gh/koba04/eslint-recommended-cl)
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/eslint-recommended-cli)
-
+[![npm version](https://badge.fury.io/js/eslint-recommended-cli.svg)](https://badge.fury.io/js/eslint-recommended-cli)
 
 This is a cli tool to run ESLint with recommended rules without any configuration files.
 
