@@ -46,3 +46,15 @@ This options is equivalent of ESLint's format option.
 ```
 npx eslint-recommended-cli --format json src/*.js
 ```
+
+### `extends`
+
+If you have own ESLint settings, you can use it with the `extends` option.
+
+```
+npx -p eslint-config-airbnb \
+-p eslint-plugin-jsx-a11y \
+-p eslint-plugin-import \
+-p eslint-recommended-cli \
+eslint-recommended-cli --extends airbnb src/*.js
+```
