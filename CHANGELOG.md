@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.3.1
+
+* Republish for 0.3.0
+
 ## 0.3.0
 
 * Add `extends` option #1
